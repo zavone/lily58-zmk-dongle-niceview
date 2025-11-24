@@ -6,3 +6,6 @@ config SHIELD_LILY58_LEFT
 
 config SHIELD_LILY58_RIGHT
     def_bool $(shields_list_contains,lily58_right)
+
+config SHIELD_LILY58_DONGLE
+    def_bool $(shields_list_contains,lily58_dongle)
