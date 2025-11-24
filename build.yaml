@@ -23,5 +23,7 @@ include:
   - board: seeeduino_xiao_ble
     shield: lily58_dongle dongle_screen
     artifact-name: dongle-screen
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
   - board: nice_nano_v2
     shield: settings_reset
