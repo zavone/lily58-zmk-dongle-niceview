@@ -117,4 +117,4 @@
 zephyr_udc0: &usbd {
 	status = "okay";
 };
-#include <../boards/common/usb/cdc_acm_serial.dtsi>
+#include "cdc_acm_serial.dtsi"
