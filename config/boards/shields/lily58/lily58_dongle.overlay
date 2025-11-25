@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "lily58_dongle.dts"
+#include "nice_nano.dts"
 #include "lily58-layouts.dtsi"
 #include "lily58_sensors.dtsi"
 
