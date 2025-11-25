@@ -1,4 +1,4 @@
-pro_micro_d: &pro_micro {};
+#include "arduino_pro_micro_pins.dtsi"
 
 / {
 
