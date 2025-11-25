@@ -1,4 +1,15 @@
-#include "arduino_pro_micro_pins.dtsi"
+/ {
+    pro_micro: connector {
+        compatible = "arduino-pro-micro";
+        #gpio-cells = <2>;
+        gpio-map-mask = <0xffffffff 0xffffffc0>;
+        gpio-map-pass-thru = <0 0x3f>;
+        gpio-map
+            = <20 0 &gpio0 29 0>    /* D20/A2 */
+            , <21 0 &gpio0 31 0>    /* D21/A3 */
+            ;
+    };
+};
 
 / {
 
