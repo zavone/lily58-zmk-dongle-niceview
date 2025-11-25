@@ -1,1 +1,12 @@
+/*
+ * Copyright (c) 2020 Pete Johanson
+ *
+ * SPDX-License-Identifier: MIT
+ */
+/dts-v1/;
 
+#include <nordic/nrf52840_qiaa.dtsi>
+#include "promicro_nrf52840_nrf52840.dtsi"
+#include <dt-bindings/zmk/matrix_transform.h>
+#include "cornix_dongle_common.dtsi"
+// vim: set ft=dts :
