@@ -1,30 +1,17 @@
 / {
-    pro_micro: connector {
-        compatible = "arduino-pro-micro";
-        #gpio-cells = <2>;
-        gpio-map-mask = <0xffffffff 0xffffffc0>;
-        gpio-map-pass-thru = <0 0x3f>;
-        gpio-map
-            = <20 0 &gpio0 29 0>    /* D20/A2 */
-            , <21 0 &gpio0 31 0>    /* D21/A3 */
-            ;
-    };
-};
-
-/ {
 
     left_encoder: encoder_left {
         compatible = "alps,ec11";
-        a-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        a-gpios = <pro_micro_d 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <pro_micro_d 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <80>;
         status = "disabled";
     };
 
     right_encoder: encoder_right {
         compatible = "alps,ec11";
-        a-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        a-gpios = <pro_micro_d 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <pro_micro_d 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <80>;
         status = "disabled";
     };
