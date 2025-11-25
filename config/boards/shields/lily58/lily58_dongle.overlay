@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "promicro_nrf52840_nrf52840.dts"
+#include "lily58_dongle.dts"
 #include "lily58-layouts.dtsi"
 #include "lily58_sensors.dtsi"
 
