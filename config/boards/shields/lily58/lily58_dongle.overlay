@@ -1,6 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "lily58-layouts.dtsi"
-#include "lily58_sensors.dtsi"
 
 / {
     chosen {
@@ -89,5 +88,5 @@ disp_spi: &spi3 {
    };
 };
 
-
+#include "lily58_sensors.dtsi"
 
