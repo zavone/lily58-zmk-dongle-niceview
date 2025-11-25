@@ -1,2 +1,2 @@
-#include "../../boards/shields/lily58_dongle.dtsi"
+#include "lily58_dongle.dtsi"
 //vim: set ft=dts:
