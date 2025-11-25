@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: petejohanson
       url-base: https://github.com/petejohanson
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
   projects:
@@ -13,8 +13,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-dongle-screen
-      remote: janpfischer
+    - name: prospector-zmk-module
+      remote: carrefinho
       revision: main
     - name: zmk-nice-oled
       remote: mctechnology17
