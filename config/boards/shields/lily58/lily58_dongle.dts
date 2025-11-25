@@ -7,5 +7,4 @@
 
 #include <nordic/nrf52840_qiaa.dtsi>
 #include "promicro_nrf52840_nrf52840.dtsi"
-#include <dt-bindings/zmk/matrix_transform.h>
 // vim: set ft=dts :
