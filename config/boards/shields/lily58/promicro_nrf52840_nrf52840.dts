@@ -117,8 +117,6 @@
 zephyr_udc0: &usbd {
 	status = "okay";
 };
-#include "cdc_acm_serial.dtsi"
-
 
 &flash0 {
 	partitions {
