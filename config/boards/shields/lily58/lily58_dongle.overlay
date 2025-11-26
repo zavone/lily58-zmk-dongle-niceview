@@ -1,4 +1,4 @@
-#include "seeed_xiao_connector.dtsi"
+#include "arduino_pro_micro_pins.dtsi"
 #include "lily58_dongle_common.dtsi"
 
 &pinctrl {
