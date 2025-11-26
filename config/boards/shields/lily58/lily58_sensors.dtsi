@@ -1,4 +1,7 @@
 / {
+    chosen {
+		zmk,kscan = &kscan0;
+    };
 
     left_encoder: encoder_left {
         compatible = "alps,ec11";
