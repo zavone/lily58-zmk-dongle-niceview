@@ -1,1 +1,3 @@
+#include "seeed_xiao_connector.dtsi"
 #include "lily58_dongle_common.dtsi"
+
