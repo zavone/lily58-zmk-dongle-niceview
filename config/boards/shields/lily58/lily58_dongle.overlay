@@ -1,4 +1,3 @@
-#include "connectors.dtsi"
 #include "lily58_dongle_common.dtsi"
 
 &pinctrl {
