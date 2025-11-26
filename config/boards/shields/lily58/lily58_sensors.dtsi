@@ -1,5 +1,3 @@
-#include "arduino_pro_micro_pins.dtsi"
-
 / {
 
     left_encoder: encoder_left {
